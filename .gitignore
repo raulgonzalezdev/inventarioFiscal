@@ -1,0 +1,117 @@
+# Entornos virtuales
+env/
+env_new/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos Excel generados
+*.xlsx
+*.xls
+Libro_Auxiliar_Inventario_*.xlsx
+
+# Archivos de configuración sensibles
+config.ini
+.env
+*.env
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+~*
+
+# Archivos de base de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Carpetas de node_modules (si usas alguna herramienta JS)
+node_modules/
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+
+# Archivos específicos del proyecto
+/backups/
+/temp/
+/output/ 
